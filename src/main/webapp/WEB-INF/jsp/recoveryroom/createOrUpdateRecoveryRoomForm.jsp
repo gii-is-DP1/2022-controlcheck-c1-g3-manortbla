@@ -4,14 +4,7 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="petclinic" tagdir="/WEB-INF/tags" %>
 
-<petclinic:layout pageName="owners">
-    <jsp:attribute name="customScript">
-        <script>
-            $(function () {
-                $("#birthDate").datepicker({dateFormat: 'yy/mm/dd'});
-            });
-        </script>
-    </jsp:attribute>
+<petclinic:layout pageName="recoveryRoom">
     <jsp:body>
         <h2>
             Recovery Room
